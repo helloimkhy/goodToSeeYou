@@ -83,6 +83,7 @@ section:nth-of-type(2n) {
 
 .content {
 	border: 1px solid #00f;
+	margin: 80px auto 10px;
 }
 
 .photo {

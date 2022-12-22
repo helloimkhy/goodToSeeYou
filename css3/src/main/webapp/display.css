@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/* 1. display:inline;*/
+/* #sec01>p, #sec01>div, #sec01>aside { */
+
+nav>ul>li {
+	border: 1px solid;
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+nav>ul>li>a {
+/* 	border: 1px solid; */
+	width: 200px;
+	display: block;
+	text-decoration: none;
+}
+nav a:link, nav a:visited {
+	color: #333;
+	background: #ccccff;
+}
+
+nav a:hover, nav a:active {
+	color: #ff66b3;
+	background: #333;
+	transition:0.6s;
+}
+
+
+#sec01, #sec02{
+	vertical-align: top;
+	display: inline-block;
+}
+#sec01>*:not(h2){
+	border: 1px solid #ff99cc;
+	width: 100px;
+	height: 50px;
+	margin: 20px; 
+	display: inline;
+	padding : 5px;
+	text-align: center;
+}
+#sec01:hover>*:not(h2) {
+	border: 1px solid #ff99cc;
+	width: 100px;
+	height: 30px;
+	margin: 20px; 
+	display: block;
+	padding : 5px;
+	text-align: center;
+	
+	
+}
+
+/* 2. display:block;*/
+#sec02>*:not(h2){
+	border: 1px solid #cc99ff;
+	width: 100px;
+	height: 30px;
+	margin: 20px; 
+	padding: 5px;
+	display: block;
+	text-align: center;
+}
+#sec02:hover>*:not(h2){
+	border: 1px solid #cc99ff;
+	width: 100px;
+	height: 30px;
+	margin: 20px; 
+	padding: 5px;
+	display: inline;
+	text-align: center;
+}
+
+/* 3. display:inline-block;*/
+#sec03>*:not(h2){
+	border: 1px solid #99ccff;
+	width: 100px;
+	height: 30px;
+	margin: 20px; 
+	padding: 5px;
+	display: inline-block;
+	text-align: center;
+}
+
+/* 4. display:none;*/
+#sec04>*:not(h2){
+	border: 1px solid #ff9900;
+	text-align: center;	
+}
+#sec04>div {
+	background-color: #aad;
+	display: none;
+}
+#sec04:hover>a {
+	background-color: #aad;
+	text-align: center;	
+	display: inline;
+}
+#sec04>a {
+	background-color: #aad;
+	display: none;
+}
+
+#sec04>p:hover+div {
+	display: block;
+}
+
+#sec04>p:hover~aside {
+	background-color: #000;
+}
+
+/* 5. display:none;*/
+#sec05>div {
+	background-color: #5a0;
+	visibility: hidden;
+}
+#sec05>p:hover+div {
+	visibility: visible;
+}
+#sec05>a {
+	background-color: #5a0;
+	visibility: hidden;
+}
+
+#sec05:hover>a {
+	visibility: visible;
+}
+#sec04, #sec05{
+	vertical-align: top;
+	display: inline-block;
+}

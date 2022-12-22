@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* * { */
+/* 	margin: 0; */
+/* 	padding: 0; */
+/* 	box-sizing: border-box; */
+/* } */
+
+.clear {
+	clear: both;
+}
+
+/* 1  */
+#nv-lft {
+	margin: 70px;
+	overflow: hidden;
+}
+
+#nv-lft ul {
+	list-style: none;
+}
+
+#nv-lft li {
+/* 	border: 1px solid; */
+	float: left;
+}
+
+#nv-lft a {
+	width: 100px; 
+	height: 30px;
+	display: block;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 30px;
+	margin: 5px;
+}
+
+#nv-lft a:link, #nv-lft a:visited {
+	background-color: #ffb3da;
+	color: #999;
+	text-decoration: none;
+	border-left: 5px solid;
+}
+#nv-lft a:hover, #nv-lft a:active {
+	background-color: #999;
+	color: #ffb3da;
+	text-decoration: none;
+	border-left: 5px solid;
+}
+
+/* 2 */
+#nv-rgt ul {
+/* 	border: 1px solid; */
+	float: right;
+	list-style: none;
+	padding-left: 0;
+	
+	}
+#nv-rgt li {
+/* 	border: 1px solid; */
+	float: left;
+	width: 100px;
+	height: 30px;
+}
+
+#nv-rgt a {
+/* 	border: 1px solid; */
+	display: block;
+	width: 100px; 
+	height: 30px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	margin: 5px;
+	box-sizing: border-box;
+}
+
+#nv-rgt a:link, #nv-rgt a:visited {
+	background-color: #ffb3da;
+	color: #999;
+	text-decoration: none;
+	border-left: 5px solid;
+}
+
+#nv-rgt a:hover, #nv-rgt a:active {
+	background-color: #999;
+	color: #ffb3da;
+	text-decoration: none;
+	border-left: 5px solid;
+}
+
+/* 3. 가로형 메뉴 */
+#nv-cnt {
+/* 	border: 1px solid red; */
+	background-color: #000;
+	height: 50px; 
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+#nv-cnt>ul {
+	width: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	list-style: none;
+}
+
+#nv-cnt li {
+	float: left;
+	width: 100px;
+	height: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 30px;
+}
+
+#nv-cnt a {
+	width: 100px;
+	height: 30px;
+	display: block;
+	text-decoration: none;
+	border-radius: 10px 10px 0 0;
+}
+
+#nv-cnt a:link, #nv-cnt a:visited {
+	background-color: #ffcccc;
+	color: GREY;
+	
+}
+#nv-cnt a:hover, #nv-cnt a:active{
+	background-color: GREY ;
+	color: #ffcccc;
+}
+
+/* ====================================== */
+		/* aside */
+#aside01 {
+	background-color: #ddc;
+	padding: 1em;
+	display: none;
+}
+
+#nv-cnt:hover+#aside01 {
+	display: block;
+}
+
+
+
+/* ====================================== */
+#sec01, #sec02 {
+	float: left;
+	width: 43%;
+}
+
+#sec01 {
+	overflow: hidden;
+	}
+
+#sec01 img {
+	float: left;
+	margin-right : 0.8em;
+	}
+#sec01>p {
+	border: 1px solid;
+	}
+#sec02>p {
+	text-align: right;
+}
+
+#sec02 {
+	overflow: hidden;
+}
+
+#sec02 img{
+	float: right;
+	margin-left: 0.8em;
+}
+
+#sec03 {
+	clear: both;
+
+}
+#sec03 {
+	overflow: hidden;
+}
+
+#sec03 > p {
+	border: 1px solid #ccc;
+	float: left;
+	width: 20%;
+	margin-right: 1em;
+}
+
+#sec03>div {
+	border: 1px solid #ccc;
+	clear: both;
+}
+
+#sec04 > p {
+	border: 1px solid #ccc;
+	float: right;
+	width: 20%;
+	margin-right: 1em;
+}
+
+#sec04>div{
+	clear: both;
+}
+
+#sec05>p {
+	padding:1em;
+	}
+
+.p09 {
+	background-color: #ffcce6;
+	width: 42%;
+	float: left;
+}
+
+.p10 {
+	background-color: #e6ccff;
+	width: 42%;
+	float: right;
+}
+
+.p11 {
+	background-color: #b3d9ff;
+	clear: both;
+}
+

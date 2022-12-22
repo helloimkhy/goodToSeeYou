@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.mg {border: 1px solid;
+	margin: 50px;}
+
+/* 1. margin의 방향별 지정 속성 */
+
+#mg-dr>li {
+	border: 1px solid;
+}
+.mt {margin-top: 50px;}
+.mr {text-align: right;
+	margin-right: 10%;}
+.mb {margin-bottom: 2em;}
+.ml {margin-left: 10%;}
+
+#mg-n>li {border: 1px solid;}
+/* 영역 겹칠 땐 큰 값이 적용됨*/
+.mgn01 {margin: 30px;}
+.mgn02 {margin: 50px auto;
+	width:50%;
+	text-align: center;} 
+
+.mgn02>b {
+	font-size: 1.1em;
+	color: #9999ff;
+}
+
+.mgn03 {margin: 20px 100px 0;}
+.mgn04 {margin: 30px auto}
+
+.bg {white-space: pre;
+	background-color: #9999ff;
+	color: #fff;
+}
+
+nav {margin-top: 5em;
+	margin-bottom: 2em;
+	text-align: center;
+	}
+
+/* 3. a의 margin적용 */
+nav>a {background-color: #595959;
+	color: #ffcce6;
+	padding: 5px 13px;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>padding</title>
+<link href="padding.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<h1><MARQUEE  scrollamount="10">padding 요소의 내부 여백</MARQUEE></h1>
+	<p class="pd">테두리(border)를 기준으로 안쪽으로 사방에 적용 됨. </p>
+	<h2>1. padding의 방향별 지정 속성</h2>
+		<ul id="pd-dr">
+			<li class="pt">padding-top: n; 위에 n만큼 적용</li>
+			<li class="pr">padding-right: n; 우측에 n만큼 적용</li>
+			<li class="pb">padding-bottom: n; 아래에 n만큼 적용</li>
+			<li class="pl">padding-left: n; 좌측에 n만큼 적용</li>
+		</ul>
+	
+	<h2>2. padding의 값 갯수별 지정법</h2>
+		<ul id="pd-n">
+			<li class="pdn01">padding : n; 사방에 같은 값을 동시 적용</li>
+			<li class="pdn02">padding : n n; 상하 좌우 순서로 적용</li>
+			<li class="pdn03">padding : n n n; 상 좌우 하 순서로 적용</li>
+			<li class="pdn04">padding : n n n n; 상 우 하 좌 순서로 적용</li>
+		</ul>
+		
+	<form action="test.jsp">
+		<h3>3. input type="text"의 padding적용</h3>
+		<input type="text" class="p01" value="padding:0.5em">
+		<input type="text" class="p02" value="0.3em 0.7em">
+		<input type="text" class="p03" value="0.3em 0.7em 0.3em 0.1em">
+	</form>		
+		
+		<h3>4. a의 padding적용</h3>
+		<nav>
+			<a href="#">1</a>
+			<a href="#">2</a>
+			<a href="#">3</a>
+			<a href="#">4</a>
+			<a href="#">5</a>
+			<a href="#">6</a>
+			<a href="#">7</a>
+			<a href="#">8</a>
+			<a href="#">9</a>
+			<a href="#">10</a>
+		</nav>
+		
+		<h3>5. img의 padding적용</h3>
+		<p id="imp">
+			<img alt="" src="img/img_cat3.jpg" class="imp01">
+			<img alt="" src="img/img_cat3.jpg" class="imp02">
+			<img alt="" src="img/img_cat3.jpg" class="imp03">
+			<img alt="" src="img/img_cat3.jpg" class="imp04">
+		</p>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="position.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<h1 class="clear"><marquee scrollamount="10" behavior="alternate">position - 요소의 위치 지정법</marquee></h1>
+
+	<ol>
+		<li>position:static; (기본값)위치 고정</li>
+		<li>position:relative; 현재 위치에서 ~지정</li>
+		<li>position:absolute; 상위요소를 기준으로 ~지정</li>
+		<li>position:fixed; 브라우저를 기준으로 ~고정</li>
+		<li>position:sticky; relative와 fixed의 믹스 효과</li>
+	</ol>
+
+	<h2>방향별 거리값 지정</h2>
+		<ul>
+			<li>left:n; </li>
+			<li>right:n; </li>
+			<li>top:n </li>
+			<li>bottom:n; </li>
+		</ul>
+
+	<section id="sec01">
+		<h2>position:static; (기본값)위치 고정</h2>
+		<div>position:static; <br> left:500px;</div>
+	</section>
+	
+	<section id="sec02">
+		<h2>position:relative; 현재 위치에서 ~지정</h2>
+		<div class="re01">position:relative1; <br> left:500px;</div>
+		<div class="re02">position:relative2; <br> </div>
+		<div class="re03">position:relative3; <br> </div>
+		<div class="re04">position:relative4; <br> </div>
+		<div class="re05">position:relative5; <br> </div>
+		<div class="re06">position:relative6; <br> </div>
+		<div class="re07">move <br> </div>
+	</section>
+	
+	<section id="sec03">
+		<h2>position:absolute; 상위요소를 기준으로 ~지정
+			<i>기준이 될 상위 요소는 posion relative</i>
+		</h2>
+		<div class="ab01">position:absolute; <br></div>
+		<div class="ab02">position:absolute; <br></div>
+		<div class="ab03">position:absolute; <br></div>
+		<div class="ab04">position:absolute; <br></div>
+		
+		<aside id="card-box">
+			<div class="card01">card01</div>
+			<div class="card02">card02</div>
+			<div class="card03">card03</div>
+			<div class="card04">card04<br>
+			<img src="img/png/monster.png" width="100px">
+			</div>
+		</aside>
+		
+	</section>
+	
+		<aside id="round-box">
+			<div class="round01">round01
+				<h3>round01</h3>
+				<div class="cir"></div>
+			</div>
+	
+			<div class="round02">round02
+				<h3>round02</h3>
+				<div class="cir"></div>
+			</div>
+	
+			<div class="round03">round03
+				<h3>round03</h3>
+				<div class="cir"></div>
+			</div>
+	
+			<div class="round04">round04
+				<h3>round04</h3>
+				<div class="cir"></div>
+			<br>
+			</div>
+		</aside>
+
+</body>
+</html>

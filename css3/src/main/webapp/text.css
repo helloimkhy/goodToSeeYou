@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/*text-align : ; 글자 수평 정렬*/
+	
+	.ta01, .ta02, .ta03{
+		border: 1px solid;
+		width: 500px;
+	}
+	.ta01 {text-align: left;}
+	.ta02 {text-align: center;}
+	.ta03 {text-align: right;}
+	.ta04 {text-align: justify;}
+/*text-decoration : ; 글자의 줄 들 */
+
+.tde01 {text-decoration: overline;}
+.tde02 {text-decoration: line-through;}
+
+	.pr01 {font-size: 0.75em;
+		text-decoration: line-through;
+		color: #777;
+	}
+	.pr02 {vertical-align: super;/*인라인 요소들의 수직정렬(테이블 셀 안에서는 내용의 수직정렬 지정 가능. )*/
+		font-size: 0.6em;
+		background-color: #993366;
+		color: #fff;
+		border-radius: 5px; /*모서리 라운딩*/
+	}
+	.sale>b {font-size: 1.2em;}
+
+.tde03 {text-decoration: underline;}
+.tde04 {text-decoration: none;
+	background: #993366;
+	color: #fff;
+}
+.tde04:hover {
+	text-decoration: underline;
+	background-color: #fff;
+	color:#993366;
+}
+/*text-indent : ; 글자 들여쓰기*/
+
+.tin01 {text-indent: 1em;}
+.tin02 {text-indent: 10%;}
+.tin03 {overflow: hidden;
+	text-indent: -150px;}
+.tin03:hover{text-indent: 0;
+	transition:1s;
+}
+.tin04 {border : 1px solid #993366;
+	text-indent: 3em;}
+
+/*text-transform : ; 영문의 대소문자 변경*/
+.ttr01 {text-transform: none;}
+.ttr02 {text-transform: uppercase;}
+.ttr03 {text-transform: lowercase;}
+.ttr04 {text-transform: capitalize;}
+
+/*text-shadow : ; 그림자*/
+#sec05>p {
+	font-size: 46px;
+	font-weight: bold;
+	text-align: center;
+}
+.tsh01 {text-shadow: 2px 3px 4px #333;}
+
+.tsh02 {text-shadow: -2px -3px 4px #333;}
+.tsh02:hover {text-shadow: 2px 3px 4px #333;
+	transition:1s;
+}
+
+.tsh03 {text-shadow: 2px 2px 4px #333;
+	color: #fff;
+}
+.tsh03:hover {text-shadow: 2px 2px 4px #fff;
+	transition: 1.5s;
+}
+
+.tsh04{background-color: #000;}
+.tsh04:hover{background-color: #000;
+	text-shadow: 0 0 14px #ff99ff;
+	transition: 1s;
+}
+
+.tsh05{text-shadow: 2px 2px 4px #a40, -2px -2px 4px #40a;
+	color: #fff;
+}
+
+.tsh06 {background-color: #000;
+	color: #a6a6a6;
+	text-shadow: 2px 2px 6px #ff99cc, -2px -2px 6px #ff99cc;
+}
+.pre {white-space: pre;}
+
+/*text-overflow : ; 영역 밖의 글자 처리 */

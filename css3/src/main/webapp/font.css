@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body {
+	font-family: 'Gowun Batang', serif;
+}
+
+.fs01 {font-size: 16px;}
+.fs02 {font-size: 12px;}
+.fs03 {font-size: 20px;}
+
+#sec01{font-size: 20px}
+.fs04 {font-size: 1em;}
+.fs05 {font-size: 0.75em;}
+.fs06 {font-size: 1.25em;}
+
+.fs07 {font-size: 1rem;}
+.fs08 {font-size: 0.75rem;}
+.fs09 {font-size: 1.25rem;}
+
+.fw01 {font-weight: 100;}
+.fw02 {font-weight: 200;}
+.fw03 {font-weight: 300;}
+.fw04 {font-weight: 400;}
+.fw05 {font-weight: 500;}
+.fw06 {font-weight: 600;}
+.fw07 {font-weight: 700;}
+.fw08 {font-weight: 800;}
+.fw09 {font-weight: 900;}
+.fw10 {font-weight: bold;}
+.fw11 {font-weight: normal;
+	color: olive;
+	font-size: 14px;
+}
+
+/*상태선택자 A:hover 는 요소 A에 마우스오버 상태에서 적용되는 선택자*/
+.fw12:hover {font-weight: bold;
+color: #9c3061;
+}
+
+.fst01 {font-style: italic;}
+.fst02 {font-style: oblique;}
+.fst03 {font-style: normal;}
+
+em:hover {font-style: normal;}
+
+.ffm01 {font-family: "Verdana", "Helvetica", "Arial", sans-serif;}
+.ffm02 {font-family: "Times New Roman", "Garamond", "Georgia", serif;}
+.ffm03 {font-family: "Lucida Console", "Courier New", "Monaco", monospace;}
+
+/*
+font-family: 'Gowun Batang', serif;
+font-family: 'Hi Melody', cursive;
+font-family: 'Poor Story', cursive;
+*/
+
+.ffm04{font-family: 'Hi Melody', cursive;}
+.ffm05{font-family: 'Poor Story', cursive;}
+
+
+
+

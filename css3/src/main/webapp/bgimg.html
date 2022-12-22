@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>background - image</title>
+<link href="bgimg.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<h1><MARQUEE  scrollamount="10">background 배경</MARQUEE></h1>
+
+	<ol>
+		<li>background_color: color; 배경색상</li>
+		<li>background_image: url("이미지 경로"); 배경 이미지</li>
+	</ol>
+
+	<h2>배경이미지</h2>
+	<ul>
+		<li>background-repeat : 배경이미지 반복;
+			<ul>
+				<li>repeat 기본값, 무한반복</li>
+				<li>repeat-x 가로로만 반복</li>
+				<li>repeat-y 세로로만 반복</li>
+				<li>no-repeat 반복 안함</li>
+			</ul>
+		</li>
+		
+		<li>background-size : 배경이미지 크기;
+			<ul>
+				<li>cover 이미지 하나로 영역 전체를 다 덮음. (이미지가 잘려나갈 수 있음. )</li>			
+				<li>contain 이미지 하나를 온전하게 영역에 최대한 엎음. (이미지가 잘려나가지 않으나 빈공간나 반복이 있을 수 있음. )</li>			
+				<li>Xn Yn 수평 수직 순서로 임의의 값 지정. </li>			
+			</ul>
+		</li>
+		
+		<li>background-position : 배경이미지 위치;
+			<ul>
+				<li>left/center/right top/center/bottom 수평 수직 순서로 방향값을 조합</li>
+				<li>Xn Yn 수평 수직 순서로 임의의 값 지정</li>
+			</ul>
+		</li>
+		
+		<li>background-attachment : 배경이미지 고정여부;
+			<ul>
+				<li>scroll 자신의 스크롤바에 고정, 브라우저 스크롤바에는 스크롤</li>
+				<li>fixed 자신과 브라우저 스크롤바에 모두 고정. </li>
+				<li>local 자신과 브라우저 스크롤바에 모두 스크롤. </li>
+			</ul>
+		</li>
+	</ul>
+	
+	<section id="sec01">
+	<h2>background-attachment</h2>
+	
+	<p class="sc">background-attachment: scroll; <br>
+		자신의 스크롤바에 고정, 브라우저 스크롤바에는 스크롤
+		<br><br><br><br><br><br>
+		background-attachment: ; <br>
+		<br><br><br><br><br><br>
+		background-attachment: ; <br>
+		<br><br><br><br><br><br>
+	</p>
+	
+	<p class="fx">background-attachment: fixed; <br>
+		자신과 브라우저 스크롤바에 모두 고정. 
+		<br><br><br><br><br><br>
+		background-attachment: ; <br>
+		<br><br><br><br><br><br>
+		background-attachment: ; <br>
+		<br><br><br><br><br><br>
+	</p>
+	
+	<p class="lc">background-attachment: local; <br>
+		자신과 브라우저 스크롤바에 모두 스크롤. 
+		<br><br><br><br><br><br>
+		background-attachment: ; <br>
+		<br><br><br><br><br><br>
+		background-attachment: ; <br>
+		<br><br><br><br><br><br>
+	</p>
+	
+	</section>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+
+
+</body>
+</html>

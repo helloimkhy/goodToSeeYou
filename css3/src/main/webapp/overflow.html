@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="style.css" rel="stylesheet">
+<link href="overflow.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1><marquee>overflow 영역 밖의 내용 처리법</marquee></h1>
+<ul>
+ <li>overflow: visible; 기본. 보임 </li>
+ <li>overflow: hidden; 숨김</li>
+ <li>overflow: scroll; (항상)스크롤바 생성</li>
+ <li>overflow: auto; 자동(필요시에만 스크롤바 생성)</li>
+</ul>
+
+<ul id="ov">
+ <li class="vs">overflow:visible; 기본. 보임<br>
+  <br><br><br><br><br><br><br><br>
+  overflow:visible; 기본. 보임
+  <br><br><br><br><br><br><br><br>
+ </li>
+ <li class="hd">overflow:hidden; 숨김<br>
+  <br><br><br><br><br><br><br><br>
+  overflow:hidden; 숨김
+   <br><br><br><br><br><br><br><br>
+ </li>
+ <li class="sc">overflow:scroll; 스크롤바 생성<br>
+  <br><br><br><br><br><br><br><br>
+  overflow:scroll; 
+  <br><br><br><br><br><br><br><br>
+ </li>
+ <li class="at">overflow:auto; 자동<br>
+  <br><br><br><br><br><br><br><br>
+  overflow:auto; 자동
+  <br><br><br><br><br><br><br><br>
+ </li>
+</ul>
+
+<div id="box">
+	<img alt="bicycle" src="img/img_bicycle2.jpg" class="ph">
+	<p class="text">bicycle</p>
+</div>
+
+<h3>말 줄임표 3</h3>
+<ul>
+	<li>white-space: nowrap; 영역에 맞춰 자동 줄바꿈되는것을 금지</li>
+	<li>overflow: hidden; 영역밖의 내용 숨김</li>
+	<li>text-overflow: ellipsis; 영역 밖의 글자는 말줄임표(...)표시</li>
+</ul>
+<p class="el">
+	말 줄임표 3 - 필요시에 말줄임표(...)표시 하기
+</p>
+
+</body>
+</html>

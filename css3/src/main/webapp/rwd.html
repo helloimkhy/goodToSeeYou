@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>rwd(responsive web design)</title>
+<link href="rwd.css" rel="stylesheet">
+</head>
+<body>
+	<h1>rwd(responsive web design)</h1>
+	<p>mobile first</p>
+
+	<h2>viewport</h2>
+	<p class="pre">뷰포트란 웹 페이지에서 사용자가 볼 수 있는 영역 &lt;head&gt; &lt;meta
+		name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+		&lt;/head&gt;</p>
+
+	<h2>반응형 작업 Media Query의 문법</h2>
+	<p class="pre">@media 조건1 and (조건2) { 선택자 {속성:속성값;} }</p>
+	<div id="mq-ul01">
+		<h3>조건1의 장치 종류(Media Types)</h3>
+		<ul>
+			<li>all - 모든 장치(상관없음)</li>
+			<li>print - 프린터</li>
+			<li>screen - 화면으로 나타나는 컴퓨터(스마트폰,테블릿 포함)</li>
+			<li>speech - 음성낭독기</li>
+		</ul>
+	</div>
+
+	<div id="mq-ul02">
+		<h3>조건2의 종류</h3>
+		<ul>
+			<li>width and height of the viewport - 화면의 너비나 높이</li>
+			<li>width and height of the device - 장치의 너비나 높이</li>
+			<li>orientation (landscape or portrait) - 화면 방향(가로/세로)
+			<li>resolution - 해상도</li>
+		</ul>
+	</div>
+
+
+
+</body>
+</html>
+
+

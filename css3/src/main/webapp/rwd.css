@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 0.8em;
+	font-family: sans-serif;
+	font-size: 12px;
+	
+}
+
+h1, h2, h3 {
+	background-color:#999;
+	color: #fff;
+	margin: 1.7em 0.8em;
+}
+
+ul, ol {
+	margin: 1.7em;
+}
+
+
+.pre {
+	background-color: #ccc;
+	white-space: pre;
+}
+
+/*tablet-720px*/
+@media screen and (min-width:720px) {
+	h1, h2, h3 {
+	background-color:#990;
+	margin: 1.8em 1em;
+	padding: 0.3em;
+	color: #ff0;
+	}
+	
+	#mq-ul01, #mq-ul02 {
+	border: 1px solid red;
+	float: left;
+	width: 45%;
+	
+	margin-right: 1.5%;
+	}
+	
+}
+
+/*1000*/
+@media screen and (min-width:1000px) {
+	body {
+	background-image: url("img/CEOlup.jpeg");
+	background-size: cover;
+	
+	padding: 1em;
+	font-size: 16px;
+	line-height: 1.7;
+	}
+	h1, h2, h3 {
+	background-color:#099;
+	margin: 2em;
+	padding: 0.5em;
+	color: #0ff;
+	}
+	
+} 
+
+/*프린터*/
+@media print {
+	body {
+	background-image: none;
+	}
+	h1, h2, h3 {
+	background-color:#fff;
+	color: #000;
+	}
+	.pre {background-color: #fff;
+	}
+	
+	
+}
+
+/*화면방향*/
+@media screen and (orientation:portrait) {
+	ul {
+		list-style: circle;
+		border: 1px solid #ccc;
+	}
+	
+	
+	
+}
+
+
+
+

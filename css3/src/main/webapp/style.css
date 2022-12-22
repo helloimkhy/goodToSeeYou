@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* 주석 */
+body {
+	line-height: 1.65;
+	background-color: #f9ecf2;
+	color: #555;
+	font-family: 'Gowun Batang', serif;
+}
+
+/* <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet"> */
+
+h1 {
+	border-left: 12px solid #db8aae;
+	border-right: 12px solid #db8aae;
+	background-color: black;
+	color: #e6b3cc;
+	padding: 0.3em 0.7em;
+}
+
+section { 
+	border: 3px dashed #ccc;
+	padding: 1em;
+	margin: 4em 1em;
+}
+section>h2{
+	border-bottom: 3px dashed #ccc;
+	color: #555;
+}

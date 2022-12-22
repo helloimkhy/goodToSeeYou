@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+#ov>li { border: 1px solid;
+	width: 500px;
+	height: 150px;
+	font-size: 1.2em;
+}
+
+.hd {color: #f00;
+overflow: hidden;}
+
+.sc {color: #0f0;
+overflow: scroll;
+}
+
+.at {color: #00f;
+overflow: auto;}
+
+#box {border: 1px solid;
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+}
+#box>.ph {
+	width: 640px;
+	height: 427px;
+	opacity: 0.5;
+}
+#box:hover>.ph {
+	width: 400px;
+	height: 300px;
+	transition:1s;
+	opacity: 1;
+}
+
+.text {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+#box:hover>.text{
+	position: relative;
+	bottom: 200px;
+	left: 150px;
+}
+
+.el {
+	border: 1px solid;
+	width: 100px;
+	height: 22px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.el:hover {
+	width: 750px;
+	transition: 1s;
+}

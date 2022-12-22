@@ -72,5 +72,10 @@ section { border: 1px solid #0f0;
 	
 }
 section:nth-of-type(2n) {
-	
+	background-color: #eee;
+}
+
+.pg-title {
+	border: 1px solid #00f;
+	position: absolute;
 }
